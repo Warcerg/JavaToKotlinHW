@@ -21,21 +21,26 @@
         android:id="@+id/textviewTaskA"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/task_a" />
+        android:text="@string/task_a"
+        android:textSize="@dimen/text_task_heading"
+        android:textStyle="bold"/>
 
     <TextView
         android:id="@+id/textViewDataClass1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="end"
-        android:text="TextView" />
+        android:text="@string/empty"
+        android:textSize="@dimen/text_DataClass"
+        />
 
     <TextView
-        android:id="@+id/textView2DataClass2"
+        android:id="@+id/textViewDataClass2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="end"
-        android:text="TextView" />
+        android:text="@string/empty"
+        android:textSize="@dimen/text_DataClass"/>
 
     <Space
         android:layout_width="match_parent"
@@ -45,21 +50,25 @@
         android:id="@+id/textviewTaskB"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/task_b" />
+        android:text="@string/task_b"
+        android:textSize="@dimen/text_task_heading"
+        android:textStyle="bold"/>
 
     <TextView
         android:id="@+id/textViewDataClassCopy1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="end"
-        android:text="TextView" />
+        android:text="@string/empty"
+        android:textSize="@dimen/text_DataClass"/>
 
     <TextView
-        android:id="@+id/textView2DataClassCopy2"
+        android:id="@+id/textViewDataClassCopy2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="end"
-        android:text="TextView" />
+        android:text="@string/empty"
+        android:textSize="@dimen/text_DataClass"/>
 
     <Space
         android:layout_width="match_parent"
@@ -69,27 +78,32 @@
         android:id="@+id/textviewTaskC"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/task_c" />
+        android:text="@string/task_c"
+        android:textSize="@dimen/text_task_heading"
+        android:textStyle="bold"/>
 
     <TextView
         android:id="@+id/textViewCycle1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="end"
-        android:text="TextView" />
+        android:text="@string/empty"
+        android:textSize="@dimen/text_DataClass"/>
 
     <TextView
         android:id="@+id/textViewCycle2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="end"
-        android:text="TextView" />
+        android:text="@string/empty"
+        android:textSize="@dimen/text_DataClass"/>
 
     <TextView
         android:id="@+id/textViewCycle3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="end"
-        android:text="TextView" />
+        android:text="@string/empty"
+        android:textSize="@dimen/text_DataClass"/>
 
 </LinearLayout>

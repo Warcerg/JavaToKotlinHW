@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">JavaTo KotlinHW</string>
-    <string name="task_a">Task A</string>
-    <string name="task_b">Task B</string>
-    <string name="task_c">Task C</string>
+    <string name="task_a">Task A - data class</string>
+    <string name="task_b">Task B - data class copy</string>
+    <string name="task_c">Task C - cycles </string>
+    <string name="empty" />
 </resources>
