@@ -15,7 +15,7 @@
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="25dp" />
+        android:layout_height="@dimen/space_height" />
 
     <TextView
         android:id="@+id/textviewTaskA"
@@ -44,7 +44,7 @@
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="25dp" />
+        android:layout_height="@dimen/space_height" />
 
     <TextView
         android:id="@+id/textviewTaskB"
@@ -72,7 +72,7 @@
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="25dp" />
+        android:layout_height="@dimen/space_height" />
 
     <TextView
         android:id="@+id/textviewTaskC"
@@ -90,6 +90,10 @@
         android:text="@string/empty"
         android:textSize="@dimen/text_DataClass"/>
 
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_height" />
+
     <TextView
         android:id="@+id/textViewCycle2"
         android:layout_width="match_parent"
@@ -97,6 +101,10 @@
         android:gravity="end"
         android:text="@string/empty"
         android:textSize="@dimen/text_DataClass"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_height" />
 
     <TextView
         android:id="@+id/textViewCycle3"
